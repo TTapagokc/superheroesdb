@@ -14,6 +14,7 @@ const ModelProfilePage = (props) => {
             <div>catch_phrase: </div>
             <div>Images</div>
             <img src={state.heroImage} alt="img" />
+            <div><button>Eddit</button></div>
         </div>
     );
 }

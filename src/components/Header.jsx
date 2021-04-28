@@ -5,8 +5,8 @@ import {NavLink} from "react-router-dom";
 const Header = (props) => {
     return (
         <header className='header'>
-            <NavLink to='/models'>
-                <span>All Super Heroes</span>
+            <NavLink className='all-heroes' to='/models'>
+                <span>Super Heroes</span>
             </NavLink>
         </header>
     );

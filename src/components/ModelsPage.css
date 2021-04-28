@@ -1,11 +1,26 @@
 .models-page {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     gap: 1em 1em;
     grid-template-areas:
-      ". . . ."
-      ". . . .";
+      ". . . . .";
     text-align: center;
     font-size: 20px;
   }
+.add-new {
+  font-size: 18px;
+  margin: 20px;
+  padding: 3px;
+  text-align: center;
+  border-radius: 2px;
+  background-color: rgba(34, 33, 33, 0.822);
+}
+.pagination {
+
+  font-size: 18px;
+  margin: 20px;
+  padding: 3px;
+  text-align: center;
+  border-radius: 2px;
+}
