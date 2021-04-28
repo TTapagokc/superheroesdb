@@ -1,8 +1,8 @@
 import './App.css';
 import Header from './components/Header';
-import ModelsInfoPage from './components/ModelsInfoPage';
-import ModelsPage from './components/ModelsPage';
 import { Route } from "react-router-dom";
+import ModelProfileContainer from './components/ModelProfileContainer';
+import ModelsPageContainer from './components/ModelsPageContainer';
 
 function App() {
   return (
@@ -11,9 +11,9 @@ function App() {
     
       <div className='app-wrapper-content'>
         <Route path='/modelsinfo'
-          render={() => <ModelsInfoPage />} />
+          render={() => <ModelProfileContainer />} />
         <Route path='/models'
-          render={() => <ModelsPage />} />
+          render={() => <ModelsPageContainer />} />
       </div>
     </div>
 
