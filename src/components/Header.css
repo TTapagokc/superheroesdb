@@ -1,0 +1,20 @@
+
+.header {
+    grid-area: h;
+    background-color: #251f29;
+    box-shadow: 0 0 10px #8d25b6;
+    border-bottom: 2px solid #7919b9;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .header img {
+    width: 50px;
+  }
+
+  a {
+    text-decoration: none;
+    color:white;
+  }
+  
