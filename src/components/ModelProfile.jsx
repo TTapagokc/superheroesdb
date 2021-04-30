@@ -15,7 +15,8 @@ const ModelProfilePage = (props) => {
             <div>catch_phrase: {user.catch_phrase}</div>
             <div>Images</div>
             <img src={user.heroImage} alt="img" />
-            <div><button>Eddit</button></div>
+            <div><button>Eddit (on work)</button></div>
+            <div><button>Remove (on work)</button></div>
         </div>
     );
 }

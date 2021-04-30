@@ -15,7 +15,7 @@ const ModelsPage = (props) => {
                 {HeroModelBlock}
             </div>
             <div className='pagination'>
-               <span> 1 2 3 4 5 </span>
+               <span> 1 2 3 4 5 (pagination on work) </span>
                 </div>
             <div className='add-new'>
             <NavLink to='/create'>
