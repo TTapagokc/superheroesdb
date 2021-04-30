@@ -1,6 +1,8 @@
+const SET_MODEL_PROFILE = 'SET-MODEL-PROFILE';
 
 //Super Heroes data base 
 let initionalState = {
+    
 
     models: [
         { id: 1, nickname: "Horo", real_name: 'Kevin Nerio', origin_description: 'God boy', superpowers: 'can fly?', catch_phrase: 'I am good boy', heroImage: 'https://99px.ru/cms/templates/main_top_b.png' },
@@ -16,14 +18,21 @@ let initionalState = {
 };
 
 const ModelsInfoReduser = (state = initionalState, action) => {
-
-
     switch (action.type) {
-
+        // case SET_MODEL_PROFILE: {
+        //     return {
+        //         ...state,
+        //     };
+        // }
         default:
             return state;
 
     }
 };
+//Action creators
+// export const setModelProfile = (modelId) => {
+//     return {type: SET_MODEL_PROFILE, modelId}
+// }
+
 
 export default ModelsInfoReduser;

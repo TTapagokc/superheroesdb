@@ -10,7 +10,7 @@ function App() {
       <Header />
     
       <div className='app-wrapper-content'>
-        <Route path='/modelsinfo'
+        <Route path='/modelsinfo/:modelId?'
           render={() => <ModelProfileContainer />} />
         <Route path='/models'
           render={() => <ModelsPageContainer />} />
